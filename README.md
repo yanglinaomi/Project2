@@ -29,10 +29,10 @@ In the fourth verification, the MSE score almost had no improvement. However, we
 After we identify our best model, residuals plot was evaluated and Sale Prices in test dataset were predicted. Interpretations and recommendations were made based off of the best-performing model.
 
 ## Table of Contents
-1. [Project Files] (#../datasets)
-2. [Data Dictionary] (#Data-Dictionary)
-3. [Model Selection] ((#Model-Selection)
-4. [Conclusions and Recommendations] (#Conclusions-and-Recommendations)
+1. [Project Files](#../datasets)
+2. [Data Dictionary](#Data-Dictionary)
+3. [Model Selection](#Model-Selection)
+4. [Conclusions and Recommendations](#Conclusions-and-Recommendations)
 
 ## Data Dictionary
 A link to the data dictionary can be found [here](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt)
@@ -83,6 +83,6 @@ From this model, we can make some recommendations for homeowners to increase the
   6. The houses in neighborhoods, such as neighborhoods Stone Brook, Northridge Heights, Veenker, Northridge, Green Hills are more valuable. 
 
 ## Reference
-[1] https://www.niche.com/places-to-live/ames-story-ia/
-[2] https://en.wikipedia.org/wiki/Ames,_Iowa
+[1] https://www.niche.com/places-to-live/ames-story-ia/                                                                                                                       
+[2] https://en.wikipedia.org/wiki/Ames,_Iowa                                                                                                                                   
 [3] https://www.mortgageloan.com/are-automated-appraisals-the-wave-of-the-future#When-automated-makes-sense
