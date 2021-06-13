@@ -1,0 +1,1 @@
+["Cat_exterior2", "Cat_masvnrtype", "Cat_garagetype", "Cat_foundation", "Cat_neighborhoods_1"]

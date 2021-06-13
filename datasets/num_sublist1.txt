@@ -1,0 +1,1 @@
+["house_age", "remod_period", "garage_age", "Ord_bsmt_exposure", "BsmtFin SF 1", "Ord_heatingQC", "Fireplaces", "Mas Vnr Area", "TotRms AbvGrd", "Full Bath", "Ord_fireplacequ", "Ord_garage_finish", "Ord_bsmt_qual", "TotalBath", "1st Flr SF", "Garage Area", "Total Bsmt SF", "Ord_kitchen_qual", "Ord_exter_qual", "AllFlrSF", "Overall Qual", "AllSF"]
