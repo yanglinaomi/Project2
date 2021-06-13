@@ -56,7 +56,7 @@ ElasticNET Regression|24809.6161|25616.3006|90.97%|89.9%
 
 ### 3rd round Model Verification - Add power 3 features
 Model Name | X_train RMSE | X_hold RMSE|X_train R2|X_hold R2
--|-|-|-|-|-
+-|-|-|-|-
 Linear Regression|24687.4268|26424.0999|91.35%%|90.28%
 Ridge Regression|24693.2033|24693.2033|91.11%|90.10%
 LASSO Regression|24651.7675|25326.342|91.11%|90.06%
@@ -64,7 +64,7 @@ ElasticNET Regression|24651.7675|25326.342|91.11%|90.06%
 
 ### 4th round Model Verification - Drop zero coeffects from 3rd round
 Model Name | X_train RMSE | X_hold RMSE|X_train R2|X_hold R2
--|-|-|-|-|-
+-|-|-|-|-
 Linear Regression|24593.4239|25173.9070|91.15%%|90.10%
 Ridge Regression|24546.7903|24833.6543|91.12%|90.11%
 LASSO Regression|24600.6990|25063.6965|91.14%|90.09%
