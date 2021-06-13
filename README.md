@@ -41,6 +41,7 @@ A link to the data dictionary can be found [here](http://jse.amstat.org/v19n3/de
 ### 1 Model Verification - 1st round verification: Apply selected features
 #### Model Verification - 1st round verification: Apply selected features
 Model Name | X_train RMSE | X_hold RMSE|X_train R2|X_hold R2
+-|-|-|-|-
 Linear Regression |27255.4138|28050.6253|88.90%|87.52%
 Ridge Regression|27221.1833|27992.7968|88.89%|87.53%
 LASSO Regression|27207.6141|27975.5524|88.89%|87.49%
