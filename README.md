@@ -35,8 +35,8 @@ After we identify our best model, residuals plot was evaluated and Sale Prices i
 4. [Conclusion and Recommendations](#Conclusion-and-Recommendations)
 
 ## Data Dictionary
-A link to the data dictionary can be found [here](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt)
-)
+A link to the data dictionary can be found [here](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt).
+
 ## Model Selection
 ### 1st round Model Verification - Apply selected features
 Model Name | X_train RMSE | X_hold RMSE|X_train R2|X_hold R2
@@ -62,7 +62,7 @@ Ridge Regression|24693.2033|24693.2033|91.11%|90.10%
 LASSO Regression|24651.7675|25326.342|91.11%|90.06%
 ElasticNET Regression|24651.7675|25326.342|91.11%|90.06%
 
-### 4th round Model Verification - Drop zero coeffects from 3rd round
+### 4th round Model Verification - Drop zero coefficient features from 3rd round
 Model Name | X_train RMSE | X_hold RMSE|X_train R2|X_hold R2
 -|-|-|-|-
 Linear Regression|24593.4239|25173.9070|91.15%%|90.10%
