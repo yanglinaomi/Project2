@@ -32,7 +32,7 @@ After we identify our best model, residuals plot was evaluated and Sale Prices i
 1. [Project Files](#../datasets)
 2. [Data Dictionary](#Data-Dictionary)
 3. [Model Selection](#Model-Selection)
-4. [Conclusions and Recommendations](#Conclusions-and-Recommendations)
+4. [Conclusion and Recommendations](#Conclusion-and-Recommendations)
 
 ## Data Dictionary
 A link to the data dictionary can be found [here](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt)
