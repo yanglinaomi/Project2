@@ -40,7 +40,12 @@ A link to the data dictionary can be found [here](http://jse.amstat.org/v19n3/de
 ## Model Selection
 ### 1 Model Verification - 1st round verification: Apply selected features
 Model Verification - 1st round verification: Apply selected features
-![image](https://user-images.githubusercontent.com/83536738/121801166-80881880-cc68-11eb-97c0-9bbdaaab9f54.png)
+Model Name | X_train RMSE | X_hold RMSE
+X_train R2|X_hold R2|-
+Linear Regression |27255.4138|28050.6253|88.90%|87.52%
+Ridge|89.8%|81.9%
+LASSO|84.6%|80.8%
+Linear Regression (Features from EDA and LASSO)|87.5%|87.8%
 
 
 
