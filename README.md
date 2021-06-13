@@ -36,8 +36,13 @@ After we identify our best model, residuals plot was evaluated and Sale Prices i
 
 ## Data Dictionary
 A link to the data dictionary can be found [here](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt)
-
+)
 ## Model Selection
+### 1 Model Verification - 1st round verification: Apply selected features
+Model Verification - 1st round verification: Apply selected features
+![image](https://user-images.githubusercontent.com/83536738/121801166-80881880-cc68-11eb-97c0-9bbdaaab9f54.png)
+
+
 
 ## Conclusion and Recommendations
 The model created in project performances well for 90.57% of the variation in Sale Price of a property although it does not fit well for extreme high SalePrice. Power 2 features are added and this improves the prediction. However, higher power features (i.e. 3) does not help a lot to improve predictions but raises high vairance in linear regression and causes colinearity between features. After remove features with zero coeffients in lasso regression can make the model fit train dataset and holdout dataset better. Observed from histogram plots for SalePrice and some continous data features, they are not normally distributed and skew to one side. We may consider log-transfomration for further improvement of this model. 
