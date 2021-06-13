@@ -38,8 +38,7 @@ After we identify our best model, residuals plot was evaluated and Sale Prices i
 A link to the data dictionary can be found [here](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt)
 )
 ## Model Selection
-### 1 Model Verification - 1st round verification: Apply selected features
-#### Model Verification - 1st round verification: Apply selected features
+### 1st round Model Verification - Apply selected features
 Model Name | X_train RMSE | X_hold RMSE|X_train R2|X_hold R2
 -|-|-|-|-
 Linear Regression |27255.4138|28050.6253|88.90%|87.52%
@@ -47,7 +46,21 @@ Ridge Regression|27221.1833|27992.7968|88.89%|87.53%
 LASSO Regression|27207.6141|27975.5524|88.89%|87.49%
 Linear Regression|27207.6141|27975.5524|87.5%|87.8%
 
+### 2nd round Model Verification - Add power 2 features
+Model Name | X_train RMSE | X_hold RMSE|X_train R2|X_hold R2
+-|-|-|-|-
+Linear Regression |24795.9652|25637.2296|91.03%%|89.90%
+Ridge Regression|24761.1563|25348.8987|91.01%|89.9%
+LASSO Regression|24809.6161|25616.3006|90.97%|89.9%
+Linear Regression|24809.6161|25616.3006|90.97%|89.9%
 
+### 3rd round Model Verification - Add power  features
+Model Name | X_train RMSE | X_hold RMSE|X_train R2|X_hold R2
+-|-|-|-|-
+Linear Regression |24795.9652|25637.2296|91.03%%|89.90%
+Ridge Regression|24761.1563|25348.8987|91.01%|89.9%
+LASSO Regression|24809.6161|25616.3006|90.97%|89.9%
+Linear Regression|24809.6161|25616.3006|90.97%|89.9%
 
 ## Conclusion and Recommendations
 The model created in project performances well for 90.57% of the variation in Sale Price of a property although it does not fit well for extreme high SalePrice. Power 2 features are added and this improves the prediction. However, higher power features (i.e. 3) does not help a lot to improve predictions but raises high vairance in linear regression and causes colinearity between features. After remove features with zero coeffients in lasso regression can make the model fit train dataset and holdout dataset better. Observed from histogram plots for SalePrice and some continous data features, they are not normally distributed and skew to one side. We may consider log-transfomration for further improvement of this model. 
