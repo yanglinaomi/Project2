@@ -36,7 +36,7 @@ After we identify our best model, residuals plot was evaluated and Sale Prices i
 
 ## Data Dictionary
 A link to the data dictionary can be found [here](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt)
-)
+
 ## Model Selection
 ### 1st round Model Verification - Apply selected features
 Model Name | X_train RMSE | X_hold RMSE|X_train R2|X_hold R2
