@@ -54,13 +54,13 @@ Ridge Regression|24761.1563|25348.8987|91.01%|89.9%
 LASSO Regression|24809.6161|25616.3006|90.97%|89.9%
 Linear Regression|24809.6161|25616.3006|90.97%|89.9%
 
-### 3rd round Model Verification - Add power  features
-Model Name | X_train RMSE | X_hold RMSE|X_train R2|X_hold R2
--|-|-|-|-
-Linear Regression |24795.9652|25637.2296|91.03%%|89.90%
-Ridge Regression|24761.1563|25348.8987|91.01%|89.9%
-LASSO Regression|24809.6161|25616.3006|90.97%|89.9%
-Linear Regression|24809.6161|25616.3006|90.97%|89.9%
+### 3rd round Model Verification - Add power 3 features
+Model Name | X_train RMSE | X_hold RMSE|X_train & X_hold RMSE diff|X_train R2|X_hold R2
+-|-|-|-|-|-
+Linear Regression|24687.4268|26424.0999|-1736.6731|91.35%%|90.28%
+Ridge Regression|24693.2033|24693.2033|-337.4878|91.11%|90.10%
+LASSO Regression|24651.7675|25326.342|674.5745|91.11%|90.06%
+ElasticNET Regression|24651.7675|25326.342|674.5745|91.11%|90.06%
 
 ## Conclusion and Recommendations
 The model created in project performances well for 90.57% of the variation in Sale Price of a property although it does not fit well for extreme high SalePrice. Power 2 features are added and this improves the prediction. However, higher power features (i.e. 3) does not help a lot to improve predictions but raises high vairance in linear regression and causes colinearity between features. After remove features with zero coeffients in lasso regression can make the model fit train dataset and holdout dataset better. Observed from histogram plots for SalePrice and some continous data features, they are not normally distributed and skew to one side. We may consider log-transfomration for further improvement of this model. 
